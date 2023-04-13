@@ -1,6 +1,5 @@
 const PORT = process.env.PORT || 8000;
-const express = require('express');
-const app = express();
+const app = require('./app');
 const http = require('http');
 
 const server = http.createServer(app);
