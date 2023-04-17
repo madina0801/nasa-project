@@ -1,5 +1,3 @@
 const planets = [];
 
-module.exports = {
-	planets,
-}
+module.exports = planets;
